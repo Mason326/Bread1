@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline-block;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+#menu{
+    display: inline-block;
+    position: relative;
+    bottom: 58px;
+
+}
+.menu-item{
+    margin: 0;
+    display: inline-block;
+    padding: 75px 30px 50px 30px;
+    font-size: 1.5vh;
+    color: gold;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header{
+    text-align: center;
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.211);
+}
+body{
+    background: url(img/fon.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.slider{
+    text-align: center;
+}
+
+
+figcaption{
+    color: gold;
+    font-size: 2.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(40, 40, 40);
+    width: fit-content;
+    padding: 10px;
+    position: relative;
+    bottom: 550px;
+    margin-left: 650px;
+}
+
+h2{
+    text-align: center;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh;
+    margin-bottom: 20px;
+}
+
+h2 ~ div{
+    text-align: center;
+}
+
+.product{
+    background: white;
+    display: inline-block;
+}
+#products .product figure img{
+    width:250px;
+    margin: 25px;
+}
+.product{
+    width:320px;
+    font-size: 30px;
+    vertical-align: text-top;
+    margin: 10px;
+    padding: 10px;
+}
+
+#products{
+    width: 1100px;
+    margin: auto;
+}
+
+.btn{
+    background-color: rgb(16, 152, 52);
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 50px;
+    border-radius: 15px;
+}
+.buy{
+    color: white;
+    text-decoration: none;
+}
