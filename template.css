@@ -28,6 +28,13 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.menu-item:hover{
+    background-color: rgba(255, 166, 0, 0.353);
+    cursor: pointer;
+}
+
+
+
 #header{
     text-align: center;
     height: 150px;
@@ -37,7 +44,7 @@ body{
     background: url(img/fon.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 140%;
 }
 .slider{
     text-align: center;
@@ -52,8 +59,8 @@ figcaption{
     width: fit-content;
     padding: 10px;
     position: relative;
-    bottom: 550px;
-    margin-left: 650px;
+    bottom: 29vh;
+    margin-left: 35vh;
 }
 
 h2{
@@ -99,4 +106,8 @@ h2 ~ div{
 .buy{
     color: white;
     text-decoration: none;
+}
+article:first-child{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
